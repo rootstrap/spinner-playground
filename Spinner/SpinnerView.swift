@@ -40,10 +40,7 @@ struct SpinnerView: View {
               configuration.spinnerColor,
               style: StrokeStyle(
                 lineWidth: 5 * multiplier,
-                lineCap: .round,
-                lineJoin: .round,
-                dash: [20, 0],
-                dashPhase: 0
+                lineCap: .round
               )
             )
             .frame(width: configuration.width, height: configuration.height)

@@ -36,18 +36,18 @@ struct ContentView: View {
         .padding()
       }
       
-//      if showSpinner {
-//        SpinnerView()
-//          .onAppear {
-//            Timer.scheduledTimer(withTimeInterval: 3, repeats: false) { timer in
-//              withAnimation(.easeIn) {
-//                self.showSpinner.toggle()
-//              }
-//            }
-//          }
-//      }
+      if showSpinner {
+        SpinnerView()
+          .onAppear {
+            Timer.scheduledTimer(withTimeInterval: 3, repeats: false) { timer in
+              withAnimation(.easeIn) {
+                self.showSpinner.toggle()
+              }
+            }
+          }
+      }
       
-      SpinnerBindedView(animate: $showSpinner)
+//      SpinnerBindedView(animate: $showSpinner)
     }
   }
 }
