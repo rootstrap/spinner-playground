@@ -14,7 +14,6 @@
 		6E23C7DE24E31EA40046EC6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E23C7DD24E31EA40046EC6F /* Preview Assets.xcassets */; };
 		6E23C7E124E31EA40046EC6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E23C7DF24E31EA40046EC6F /* LaunchScreen.storyboard */; };
 		6E23C7E924E31EF30046EC6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E23C7E824E31EF30046EC6F /* ContentView.swift */; };
-		6E23C7EB24E32EA30046EC6F /* SpinnerBindedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E23C7EA24E32EA30046EC6F /* SpinnerBindedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		6E23C7E024E31EA40046EC6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E23C7E224E31EA40046EC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E23C7E824E31EF30046EC6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6E23C7EA24E32EA30046EC6F /* SpinnerBindedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerBindedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 				6E23C7D624E31E9E0046EC6F /* SceneDelegate.swift */,
 				6E23C7E824E31EF30046EC6F /* ContentView.swift */,
 				6E23C7D824E31E9E0046EC6F /* SpinnerView.swift */,
-				6E23C7EA24E32EA30046EC6F /* SpinnerBindedView.swift */,
 				6E23C7DA24E31EA40046EC6F /* Assets.xcassets */,
 				6E23C7DF24E31EA40046EC6F /* LaunchScreen.storyboard */,
 				6E23C7E224E31EA40046EC6F /* Info.plist */,
@@ -153,7 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E23C7D524E31E9E0046EC6F /* AppDelegate.swift in Sources */,
-				6E23C7EB24E32EA30046EC6F /* SpinnerBindedView.swift in Sources */,
 				6E23C7D724E31E9E0046EC6F /* SceneDelegate.swift in Sources */,
 				6E23C7E924E31EF30046EC6F /* ContentView.swift in Sources */,
 				6E23C7D924E31E9E0046EC6F /* SpinnerView.swift in Sources */,

@@ -38,6 +38,7 @@ struct ContentView: View {
       
       if showSpinner {
         SpinnerView()
+          //Just a timer to dismiss the view after calling it
           .onAppear {
             Timer.scheduledTimer(withTimeInterval: 3, repeats: false) { timer in
               withAnimation(.easeIn) {
@@ -46,8 +47,6 @@ struct ContentView: View {
             }
           }
       }
-      
-//      SpinnerBindedView(animate: $showSpinner)
     }
   }
 }
